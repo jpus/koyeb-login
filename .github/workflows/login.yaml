@@ -16,6 +16,11 @@ jobs:
       - name: Checkout 仓库代码
         uses: actions/checkout@v2
 
+      - name: Set up WARP
+        uses: fscarmen/warp-on-actions@v1.2
+        with:
+          stack: dual   # Optional. Support [ ipv4, ipv6, dual ]. Default is dual. 
+          
       - name: 安装 Playwright 所需依赖
         run: |
           npx playwright install-deps
