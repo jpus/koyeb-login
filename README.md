@@ -24,7 +24,7 @@
     - 转到你 fork 的仓库页面。
     - 点击 `Settings`，然后在左侧菜单中选择 `Secrets and variables` > `Actions`。
     - 添加以下 Secrets, 上方框为变量名，下文框为变量值，创建完一个变量名和变量值保存后再创建另一个变量名和变量值，以此类推：
-        - `KOY_ACC`: 账号1:密码 账号2:密码 账号3:密码 `(账号与密码之间使用;密码与另一帐号之间使用空格)`
+        - `KOY_ACC`: 账号1;密码 账号2;密码 账号3;密码 `(账号与密码之间使用;密码与另一帐号之间使用空格)`
         - `TEL_TOK`: 你的 Telegram Bot 的 API Token。
         - `TEL_ID`: 你的 Telegram Chat ID。
 
